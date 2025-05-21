@@ -1,0 +1,8 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "colors";
+@import "components/card";
+
+body {
+  background-color: $primary !important;
+  font-family: Arial, sans-serif;
+}

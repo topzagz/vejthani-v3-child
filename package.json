@@ -1,0 +1,25 @@
+{
+  "name": "vejthani-v3-child",
+  "version": "1.0.0",
+  "description": "Child theme for Vejthani v3 with SASS and Bootstrap",
+  "scripts": {
+    "build:css": "sass src/scss/style.scss dist/css/style.css --style=compressed",
+    "build:js": "esbuild src/js/main.js --bundle --outfile=dist/js/main.js",
+    "build": "npm run build:css && npm run build:js",
+    "watch": "npm-run-all --parallel watch:*",
+    "watch:css": "sass --watch src/scss/style.scss dist/css/style.css",
+    "watch:js": "esbuild src/js/main.js --bundle --outfile=dist/js/main.js --watch"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.6",
+    "sass": "^1.62.0",
+    "esbuild": "^0.20.0",
+    "@popperjs/core": "^2.11.7",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
