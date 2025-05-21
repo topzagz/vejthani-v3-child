@@ -3,7 +3,7 @@
 - Bootstrap 5.3.6
 - Webpack สำหรับ build JavaScript
 - npm scripts สำหรับ build/watch
-- แบ่งโฟลเดอร์อย่างมีระเบียบ (src/, dist/, node_modules/)
+- จัดการโฟลเดอร์อย่างมีระเบียบ (src/, dist/, node_modules/)
 
 
 # โครงสร้างโปรเจกต์
@@ -18,8 +18,8 @@ vejthani-v3-child/
 │   ├── scss/
 │   │   ├── _colors.scss      # Partial SCSS ที่เก็บตัวแปรสี
 │   │   └── style.scss        # SASS หลัก (import bootstrap + ปรับแต่ง)
-│   |   ├── components/
-│   |   |      └── _card.scss      # Card
+│   │   ├── components/
+│   │   │      └── _card.scss      # Card
 │   └── js/
 │       └── main.js           # Entry point สำหรับ Webpack + Bootstrap JS
 ├── functions.php             # Load CSS + JS เข้ากับ WordPress
