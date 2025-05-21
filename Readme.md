@@ -1,4 +1,4 @@
-# Modern Frontend Workflow ที่ใช้:
+# Modern Frontend Workflow
 - SCSS (SASS) สำหรับ styling
 - Bootstrap 5.3.6
 - Webpack สำหรับ build JavaScript
@@ -18,6 +18,8 @@ vejthani-v3-child/
 │   ├── scss/
 │   │   ├── _colors.scss      # Partial SCSS ที่เก็บตัวแปรสี
 │   │   └── style.scss        # SASS หลัก (import bootstrap + ปรับแต่ง)
+│   |   ├── components/
+│   |   |      └── _card.scss      # Card
 │   └── js/
 │       └── main.js           # Entry point สำหรับ Webpack + Bootstrap JS
 ├── functions.php             # Load CSS + JS เข้ากับ WordPress
